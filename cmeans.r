@@ -109,3 +109,6 @@ print("___________________________________________")
 library(precrec)
 #precrec_obj <- evalmod(scores = y, labels = x)
 #autoplot(precrec_obj)
+
+
+pairs(iris[,-5], col = factor(df$c))
